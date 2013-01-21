@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A54B7EE416AD7EB300534835 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54B7EE316AD7EB300534835 /* UIKit.framework */; };
+		A54B7EE616AD7EB300534835 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54B7EE516AD7EB300534835 /* Foundation.framework */; };
+		A54B7EE816AD7EB300534835 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54B7EE716AD7EB300534835 /* CoreGraphics.framework */; };
+		A54B7EEE16AD7EB400534835 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A54B7EEC16AD7EB400534835 /* InfoPlist.strings */; };
+		A54B7EF016AD7EB400534835 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A54B7EEF16AD7EB400534835 /* main.m */; };
+		A54B7EF416AD7EB400534835 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A54B7EF316AD7EB400534835 /* AppDelegate.m */; };
+		A54B7EF616AD7EB400534835 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A54B7EF516AD7EB400534835 /* Default.png */; };
+		A54B7EF816AD7EB400534835 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A54B7EF716AD7EB400534835 /* Default@2x.png */; };
+		A54B7EFA16AD7EB400534835 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A54B7EF916AD7EB400534835 /* Default-568h@2x.png */; };
+		A54B7EFD16AD7EB400534835 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54B7EFB16AD7EB400534835 /* MainStoryboard.storyboard */; };
+		A54B7F0016AD7EB400534835 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54B7EFF16AD7EB400534835 /* FirstViewController.m */; };
+		A54B7F0216AD7EB400534835 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = A54B7F0116AD7EB400534835 /* first.png */; };
+		A54B7F0416AD7EB400534835 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A54B7F0316AD7EB400534835 /* first@2x.png */; };
+		A54B7F0716AD7EB400534835 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54B7F0616AD7EB400534835 /* SecondViewController.m */; };
+		A54B7F0916AD7EB400534835 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = A54B7F0816AD7EB400534835 /* second.png */; };
+		A54B7F0B16AD7EB400534835 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A54B7F0A16AD7EB400534835 /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A54B7EDF16AD7EB300534835 /* AutoRotateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoRotateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54B7EE316AD7EB300534835 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A54B7EE516AD7EB300534835 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A54B7EE716AD7EB300534835 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A54B7EEB16AD7EB400534835 /* AutoRotateDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoRotateDemo-Info.plist"; sourceTree = "<group>"; };
+		A54B7EED16AD7EB400534835 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A54B7EEF16AD7EB400534835 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A54B7EF116AD7EB400534835 /* AutoRotateDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoRotateDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A54B7EF216AD7EB400534835 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A54B7EF316AD7EB400534835 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A54B7EF516AD7EB400534835 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A54B7EF716AD7EB400534835 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A54B7EF916AD7EB400534835 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A54B7EFC16AD7EB400534835 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A54B7EFE16AD7EB400534835 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A54B7EFF16AD7EB400534835 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A54B7F0116AD7EB400534835 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		A54B7F0316AD7EB400534835 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		A54B7F0516AD7EB400534835 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A54B7F0616AD7EB400534835 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A54B7F0816AD7EB400534835 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		A54B7F0A16AD7EB400534835 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A54B7EDC16AD7EB300534835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54B7EE416AD7EB300534835 /* UIKit.framework in Frameworks */,
+				A54B7EE616AD7EB300534835 /* Foundation.framework in Frameworks */,
+				A54B7EE816AD7EB300534835 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A54B7ED416AD7EB300534835 = {
+			isa = PBXGroup;
+			children = (
+				A54B7EE916AD7EB300534835 /* AutoRotateDemo */,
+				A54B7EE216AD7EB300534835 /* Frameworks */,
+				A54B7EE016AD7EB300534835 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A54B7EE016AD7EB300534835 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A54B7EDF16AD7EB300534835 /* AutoRotateDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A54B7EE216AD7EB300534835 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A54B7EE316AD7EB300534835 /* UIKit.framework */,
+				A54B7EE516AD7EB300534835 /* Foundation.framework */,
+				A54B7EE716AD7EB300534835 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A54B7EE916AD7EB300534835 /* AutoRotateDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A54B7EF216AD7EB400534835 /* AppDelegate.h */,
+				A54B7EF316AD7EB400534835 /* AppDelegate.m */,
+				A54B7EFB16AD7EB400534835 /* MainStoryboard.storyboard */,
+				A54B7EFE16AD7EB400534835 /* FirstViewController.h */,
+				A54B7EFF16AD7EB400534835 /* FirstViewController.m */,
+				A54B7F0116AD7EB400534835 /* first.png */,
+				A54B7F0316AD7EB400534835 /* first@2x.png */,
+				A54B7F0516AD7EB400534835 /* SecondViewController.h */,
+				A54B7F0616AD7EB400534835 /* SecondViewController.m */,
+				A54B7F0816AD7EB400534835 /* second.png */,
+				A54B7F0A16AD7EB400534835 /* second@2x.png */,
+				A54B7EEA16AD7EB400534835 /* Supporting Files */,
+			);
+			path = AutoRotateDemo;
+			sourceTree = "<group>";
+		};
+		A54B7EEA16AD7EB400534835 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A54B7EEB16AD7EB400534835 /* AutoRotateDemo-Info.plist */,
+				A54B7EEC16AD7EB400534835 /* InfoPlist.strings */,
+				A54B7EEF16AD7EB400534835 /* main.m */,
+				A54B7EF116AD7EB400534835 /* AutoRotateDemo-Prefix.pch */,
+				A54B7EF516AD7EB400534835 /* Default.png */,
+				A54B7EF716AD7EB400534835 /* Default@2x.png */,
+				A54B7EF916AD7EB400534835 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A54B7EDE16AD7EB300534835 /* AutoRotateDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54B7F0E16AD7EB400534835 /* Build configuration list for PBXNativeTarget "AutoRotateDemo" */;
+			buildPhases = (
+				A54B7EDB16AD7EB300534835 /* Sources */,
+				A54B7EDC16AD7EB300534835 /* Frameworks */,
+				A54B7EDD16AD7EB300534835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoRotateDemo;
+			productName = AutoRotateDemo;
+			productReference = A54B7EDF16AD7EB300534835 /* AutoRotateDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A54B7ED616AD7EB300534835 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = yimajo;
+			};
+			buildConfigurationList = A54B7ED916AD7EB300534835 /* Build configuration list for PBXProject "AutoRotateDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A54B7ED416AD7EB300534835;
+			productRefGroup = A54B7EE016AD7EB300534835 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A54B7EDE16AD7EB300534835 /* AutoRotateDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A54B7EDD16AD7EB300534835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54B7EEE16AD7EB400534835 /* InfoPlist.strings in Resources */,
+				A54B7EF616AD7EB400534835 /* Default.png in Resources */,
+				A54B7EF816AD7EB400534835 /* Default@2x.png in Resources */,
+				A54B7EFA16AD7EB400534835 /* Default-568h@2x.png in Resources */,
+				A54B7EFD16AD7EB400534835 /* MainStoryboard.storyboard in Resources */,
+				A54B7F0216AD7EB400534835 /* first.png in Resources */,
+				A54B7F0416AD7EB400534835 /* first@2x.png in Resources */,
+				A54B7F0916AD7EB400534835 /* second.png in Resources */,
+				A54B7F0B16AD7EB400534835 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A54B7EDB16AD7EB300534835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54B7EF016AD7EB400534835 /* main.m in Sources */,
+				A54B7EF416AD7EB400534835 /* AppDelegate.m in Sources */,
+				A54B7F0016AD7EB400534835 /* FirstViewController.m in Sources */,
+				A54B7F0716AD7EB400534835 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A54B7EEC16AD7EB400534835 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54B7EED16AD7EB400534835 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A54B7EFB16AD7EB400534835 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54B7EFC16AD7EB400534835 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A54B7F0C16AD7EB400534835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A54B7F0D16AD7EB400534835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A54B7F0F16AD7EB400534835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoRotateDemo/AutoRotateDemo-Prefix.pch";
+				INFOPLIST_FILE = "AutoRotateDemo/AutoRotateDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A54B7F1016AD7EB400534835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoRotateDemo/AutoRotateDemo-Prefix.pch";
+				INFOPLIST_FILE = "AutoRotateDemo/AutoRotateDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A54B7ED916AD7EB300534835 /* Build configuration list for PBXProject "AutoRotateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54B7F0C16AD7EB400534835 /* Debug */,
+				A54B7F0D16AD7EB400534835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54B7F0E16AD7EB400534835 /* Build configuration list for PBXNativeTarget "AutoRotateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54B7F0F16AD7EB400534835 /* Debug */,
+				A54B7F1016AD7EB400534835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A54B7ED616AD7EB300534835 /* Project object */;
+}
