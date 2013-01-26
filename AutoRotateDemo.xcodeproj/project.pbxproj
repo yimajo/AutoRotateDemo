@@ -334,6 +334,7 @@
 				A54B7F1016AD7EB400534835 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

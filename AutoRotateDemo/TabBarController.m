@@ -42,18 +42,25 @@
 
 #pragma mark iOS6
 
+//回転させるかどうか
 - (BOOL)shouldAutorotate
 {
-	//とりあえず1つめのタブのcontrollerの処理はYESにしておく
-	if (self.selectedIndex == 0) {
-		return [self.viewControllers.lastObject shouldAutorotate];
-	}
-	return NO;
+	//選択したViewController(navigationならnavigation)に任せる
+	return [self.selectedViewController shouldAutorotate];
 }
 
+//回転させる向きを指定
 - (NSUInteger)supportedInterfaceOrientations
 {
-    return [self.viewControllers.lastObject supportedInterfaceOrientations];
+	//選択したViewController(navigationならnavigation)に任せる
+	return [self.selectedViewController supportedInterfaceOrientations];
+}
+
+//初期向き
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
+{
+	//選択したViewController(navigationならnavigation)に任せる
+	return [self.selectedViewController preferredInterfaceOrientationForPresentation];
 }
 
 @end

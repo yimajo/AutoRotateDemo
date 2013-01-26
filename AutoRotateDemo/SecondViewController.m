@@ -39,4 +39,14 @@
 }
 
 
+#pragma mark iOS6
+
+
+- (BOOL)shouldAutorotate
+{
+	//このViewControllerは回転させない
+    return NO;
+}
+
+
 @end

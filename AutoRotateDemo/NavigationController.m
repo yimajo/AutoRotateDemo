@@ -45,13 +45,21 @@
 
 - (BOOL)shouldAutorotate
 {
-	NSLog(@"nav rotate");
-    return [self.viewControllers.lastObject shouldAutorotate];
+	//表示しているViewControllerにまかせる
+	return [self.visibleViewController shouldAutorotate];
 }
 
 - (NSUInteger)supportedInterfaceOrientations
 {
-    return [self.viewControllers.lastObject supportedInterfaceOrientations];	
+	//表示しているViewControllerにまかせる
+	return [self.visibleViewController supportedInterfaceOrientations];
+}
+
+//初期向き
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
+{
+	//表示しているViewControllerにまかせる
+	return [self.visibleViewController preferredInterfaceOrientationForPresentation];
 }
 
 @end

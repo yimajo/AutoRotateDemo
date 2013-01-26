@@ -50,7 +50,14 @@
 
 - (NSUInteger)supportedInterfaceOrientations
 {
+	//縦だけサポートする
     return UIInterfaceOrientationMaskPortrait;
+}
+
+//初期向き
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
+{
+	return UIInterfaceOrientationPortrait;
 }
 
 @end
