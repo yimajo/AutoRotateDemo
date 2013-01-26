@@ -23,6 +23,9 @@
 		A54B7F0716AD7EB400534835 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54B7F0616AD7EB400534835 /* SecondViewController.m */; };
 		A54B7F0916AD7EB400534835 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = A54B7F0816AD7EB400534835 /* second.png */; };
 		A54B7F0B16AD7EB400534835 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A54B7F0A16AD7EB400534835 /* second@2x.png */; };
+		A54B7F1316AD806000534835 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54B7F1216AD806000534835 /* TabBarController.m */; };
+		A54B7F1616AD83AE00534835 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54B7F1516AD83AE00534835 /* TableViewController.m */; };
+		A54B7F1916AD860A00534835 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54B7F1816AD860A00534835 /* NavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,12 @@
 		A54B7F0616AD7EB400534835 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		A54B7F0816AD7EB400534835 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		A54B7F0A16AD7EB400534835 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		A54B7F1116AD806000534835 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		A54B7F1216AD806000534835 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		A54B7F1416AD83AE00534835 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		A54B7F1516AD83AE00534835 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		A54B7F1716AD860A00534835 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		A54B7F1816AD860A00534835 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +106,12 @@
 				A54B7EF216AD7EB400534835 /* AppDelegate.h */,
 				A54B7EF316AD7EB400534835 /* AppDelegate.m */,
 				A54B7EFB16AD7EB400534835 /* MainStoryboard.storyboard */,
+				A54B7F1116AD806000534835 /* TabBarController.h */,
+				A54B7F1216AD806000534835 /* TabBarController.m */,
+				A54B7F1716AD860A00534835 /* NavigationController.h */,
+				A54B7F1816AD860A00534835 /* NavigationController.m */,
+				A54B7F1416AD83AE00534835 /* TableViewController.h */,
+				A54B7F1516AD83AE00534835 /* TableViewController.m */,
 				A54B7EFE16AD7EB400534835 /* FirstViewController.h */,
 				A54B7EFF16AD7EB400534835 /* FirstViewController.m */,
 				A54B7F0116AD7EB400534835 /* first.png */,
@@ -198,6 +213,9 @@
 				A54B7EF416AD7EB400534835 /* AppDelegate.m in Sources */,
 				A54B7F0016AD7EB400534835 /* FirstViewController.m in Sources */,
 				A54B7F0716AD7EB400534835 /* SecondViewController.m in Sources */,
+				A54B7F1316AD806000534835 /* TabBarController.m in Sources */,
+				A54B7F1616AD83AE00534835 /* TableViewController.m in Sources */,
+				A54B7F1916AD860A00534835 /* NavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

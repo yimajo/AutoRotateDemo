@@ -26,4 +26,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - rotate
+#pragma mark iOS5
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+	if (UIInterfaceOrientationPortraitUpsideDown != interfaceOrientation) {
+		//逆さだけ回転させない
+		return YES;
+	}
+	return NO;
+}
+
+
 @end

@@ -26,4 +26,31 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - rotate
+#pragma mark iOS5
+
+//iOS5では自動回転させたくないナビゲーションやタブを選べない
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+	if (UIInterfaceOrientationPortraitUpsideDown != interfaceOrientation) {
+		//逆さだけ回転させない
+		return YES;
+	}
+	return NO;
+}
+
+
+#pragma mark iOS6
+
+- (BOOL)shouldAutorotate
+{
+	//このViewControllerは回転させない
+    return NO;
+}
+
+- (NSUInteger)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskPortrait;
+}
+
 @end
